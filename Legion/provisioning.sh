@@ -22,7 +22,3 @@ deal_with_ipv6_selinux_problem
 install_deb_base
 personal_dev_setup
 
-install_dependencies_spider_monkey
-get_spider_monkeys
-
-
