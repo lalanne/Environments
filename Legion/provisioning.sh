@@ -9,7 +9,7 @@ source $PATH_SCRIPTS/ipv6_selinux.sh
 source $PATH_SCRIPTS/timezone.sh
 source $PATH_SCRIPTS/ssh.sh
 source $PATH_SCRIPTS/personal_dev.sh
-source $PATH_SCRIPTS/rpm_base.sh
+source $PATH_SCRIPTS/deb_base.sh
 source $PATH_SCRIPTS/spider_monkeys.sh
 
 set_machine_timezone
@@ -19,7 +19,7 @@ set_nproc_limits
 set_utf8
 deal_with_ipv6_selinux_problem
 
-install_rpm_base
+install_deb_base
 personal_dev_setup
 
 install_dependencies_spider_monkey
