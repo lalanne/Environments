@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 function personal_dev_setup {
+    git clone git@github.com:lalanne/mpdata.git
+
     echo "Here we should put personal configurations of vim, tmux, ..etc"
     sudo apt-get --assume-yes install zsh
 
