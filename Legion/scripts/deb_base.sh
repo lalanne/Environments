@@ -5,4 +5,5 @@ function install_deb_base {
     sudo apt-get --assume-yes install g++
     sudo apt-get --assume-yes install git
     sudo apt-get --assume-yes install cmake
+    sudo apt-get --assume-yes install libexpat1-dev
 }
